@@ -1,5 +1,5 @@
 ---
 layout: post
-title: my first post!
+title: My first post!
 ---
-My first post!
+This is my first post to the blog. I'm currently testing different layouts

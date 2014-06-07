@@ -2,10 +2,20 @@
 layout: default
 title: a blog
 ---
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<div class="row">
+	{% for post in site.posts %}
+	<div class="col-md-4 col-sm-6">
+		<div class="panel post-panel" data-target="{{ post.url }}">
+			<div class="panel-heading">
+				<a href="{{ post.url }}"><h1 class="panel-title">{{ post.title }}</h1></a>
+			</div>
+			<div class="panel-body">
+				{{ post.excerpt }}
+			</div>
+			<div class="panel-footer">
+				{{ post.date | date_to_string }} {{ post.author }}
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
