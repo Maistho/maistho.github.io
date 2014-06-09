@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My second post!
+author: maistho
 ---
 The first paragraph will be shown on the front page.
 

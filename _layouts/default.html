@@ -1,25 +1,9 @@
-<html>
-<head>
-<meta charset="utf-8" />
-<title> A blog</title>
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="css/style.css">
-
-</head>
-<body>
-<div class="container">
+{% include header.html %}
+<div class="wrapper">
 	<div class="header">
-		<h1>Gustav Bylund<br />
-			<small>Blogs about programming and game development</small>
-		</h1>
+		<h1 class="title"><a href="#">Gustav Bylund</a></h1>
+		<h2>Blogs about programming</h2>
 	</div>
 	{{content}}
 </div>
-
-
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script src="js/blog.js"></script>
-</body>
-</html>
+{% include footer.html %}
