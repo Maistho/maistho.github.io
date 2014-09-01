@@ -1,9 +1,15 @@
-{% include header.html %}
-<div class="wrapper">
-	<div class="header">
-		<h1 class="title"><a href="#">Gustav Bylund</a></h1>
-		<h2>Blogs about programming</h2>
-	</div>
-	{{content}}
-</div>
-{% include footer.html %}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include sidebar.html %}
+
+    <div class="content container">
+      {{ content }}
+    </div>
+
+  </body>
+</html>

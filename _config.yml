@@ -1,10 +1,25 @@
-timezone: Europe/Stockholm
-encoding: utf-8
-markdown: kramdown
+# Dependencies
+markdown:         redcarpet
+pygments:         true
 
-authors:
-   maistho:
-      name: 'Gustav Bylund'
-      email: 'gustav.bylund@gmail.com'
+# Permalinks
+permalink:        pretty
 
-highlighter: pygments
+# Setup
+title:            Maistho
+tagline:          'A Blog about Programming'
+description:      'This is my blog mostly about programming. I tend to forget things, and as such I post here mostly for my own benefit. I hope that someday someone reads this and finds a solution to a problem.'
+url:              http://blog.bylundia.se
+
+author:
+  name:           'Gustav Bylund'
+  url:            http://blog.bylundia.se
+  github:         http://github.com/Maistho
+  cv:             http://bylundia.se/CV
+
+paginate:         5
+
+# Custom vars
+
+github:
+  repo:           https://github.com/maistho/maistho.github.io
