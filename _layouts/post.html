@@ -1,0 +1,19 @@
+{% assign author = site.authors[page.author] %}
+{% include header.html %}
+<div class="wrapper">
+	<div class="header">
+		<h1><a href="/">Gustav Bylund</a></h1>
+	</div>
+	<div class="post post-full">
+		<div class="post-title">
+			<h1 class="title">{{ page.title }}</a>
+		</div>
+		<div class="post-content">
+			{{ page.content }}
+		</div>
+		<div class="post-footer">
+			{{ page.date | date_to_string }} by <a href="mailto:{{ author.email }}">{{ author.name }}</a>
+		</div>
+	</div>
+</div>
+{% include footer.html %}

@@ -1,0 +1,8 @@
+timezone: Europe/Stockholm
+encoding: utf-8
+markdown: kramdown
+
+authors:
+   maistho:
+      name: 'Gustav Bylund'
+      email: 'gustav.bylund@gmail.com'
