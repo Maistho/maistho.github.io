@@ -6,3 +6,5 @@ authors:
    maistho:
       name: 'Gustav Bylund'
       email: 'gustav.bylund@gmail.com'
+
+highlighter: pygments
