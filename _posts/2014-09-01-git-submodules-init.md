@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "git init and pull all submodules"
-description: "how to pull all submodules"
+title: "Init and pull all git submodules"
+description: "How to pull all git submodules after clone"
 category:
-tags: []
+tags: ["git"]
 ---
 
 I always seem to forget some commands. How to pull all the submodules in my dotfiles git repo is something I have to look up every time.
