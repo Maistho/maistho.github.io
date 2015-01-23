@@ -14,6 +14,7 @@ The single biggest reason for weird bugs my students had today was css float. Us
 
 
 Here's an example of a simple sidebar using float:
+http://jsfiddle.net/9s2u0szk/
 
 {% highlight html %}
 <div id="container">
@@ -32,12 +33,13 @@ Here's an example of a simple sidebar using float:
 }
 #sidebar, #content {
 	float: left;
-
 }
 #sidebar {
+	background-color: #f0f000;
 	width: 100px;
 }
 #content {
+	background-color: #00f0f0;
 	width: calc(100% - 100px);
 }
 {% endhighlight %}
