@@ -13,8 +13,7 @@ The single biggest reason for weird bugs my students had today was css float. Us
 3. This wrapping div should _always_ have `overflow: hidden`, to avoid a whole range of strange bugs.
 
 
-Here's an example of a simple sidebar using float:
-http://jsfiddle.net/9s2u0szk/
+Here's an [example](http://jsfiddle.net/9s2u0szk/) of a simple sidebar using float:
 
 {% highlight html %}
 <div id="container">
