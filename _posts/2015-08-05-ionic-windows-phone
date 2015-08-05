@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Ionic on Windows Phone"
+description: ""
+category:
+tags: [html,css,web,ionic,windows]
+---
+
+Since angular doesn't work without some fixes, using Ionic in Windows Phone is not at all as straightforward as it should be.
+In order to make it work, these are the steps you need to follow:
+
+1. Include winstore-jscompat
