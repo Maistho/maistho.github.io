@@ -10,3 +10,8 @@ Since angular doesn't work without some fixes, using Ionic in Windows Phone is n
 In order to make it work, these are the steps you need to follow:
 
 1. Include winstore-jscompat
+2. Use the github version of https://github.com/msopentech/cordova-plugin-websql/ instead of the npm version.
+3. Don't use imgcache, something about it just breaks.
+4. Map stuff seems to break
+5. Icons seem to break
+6. don't use any a links. Use div with ui-sref instead.
