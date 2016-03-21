@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 pygments:         true
 
 # Permalinks
@@ -13,9 +13,9 @@ url:              http://blog.bylundia.se
 
 author:
   name:           'Gustav Bylund'
-  url:            http://blog.bylundia.se
-  github:         http://github.com/Maistho
-  cv:             http://bylundia.se/CV
+  url:            https://blog.bylundia.se
+  github:         https://github.com/Maistho
+  cv:             https://bylundia.se/CV
 
 paginate:         5
 
