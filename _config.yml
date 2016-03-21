@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         kramdown
-pygments:         true
+gems:             ['jekyll-paginate']
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -8,14 +9,14 @@ permalink:        pretty
 # Setup
 title:            Maistho
 tagline:          'A Blog about Programming'
-description:      'This is my blog mostly about programming. I tend to forget things, and as such I post here mostly for my own benefit. I hope that someday someone reads this and finds a solution to a problem.'
+description:      'This is my blog mostly about programming. I tend to forget things, and as such I post here mostly for my own benefit.'
 url:              http://blog.bylundia.se
+repository:           https://github.com/maistho/maistho.github.io
 
 author:
   name:           'Gustav Bylund'
   url:            https://blog.bylundia.se
   github:         https://github.com/Maistho
-  cv:             https://bylundia.se/CV
 
 paginate:         5
 

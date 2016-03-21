@@ -15,7 +15,7 @@ The single biggest reason for weird bugs my students had today was css float. Us
 
 Here's an [example](http://jsfiddle.net/9s2u0szk/) of a simple sidebar using float:
 
-{% highlight html %}
+```html
 <div id="container">
 	<div id="sidebar">
 		<p>This is a sidebar</p>
@@ -24,9 +24,9 @@ Here's an [example](http://jsfiddle.net/9s2u0szk/) of a simple sidebar using flo
 		<p>Lorem ipsum osv</p>
 	</div>
 </div>
-{% endhighlight %}
+```
 
-{% highlight css %}
+```css
 #container {
 	overflow: hidden;
 }
@@ -41,4 +41,4 @@ Here's an [example](http://jsfiddle.net/9s2u0szk/) of a simple sidebar using flo
 	background-color: #00f0f0;
 	width: calc(100% - 100px);
 }
-{% endhighlight %}
+```
